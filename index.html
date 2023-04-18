@@ -1,20 +1,3 @@
-<?php
-
-if(isset($_GET['submit'])){
-  $name = $_GET['Name'];
-$email = $_GET['Email'];
-$message = $_GET['Message'];
-
-
-
-$to = "kowsersojol@gmail.com";
-$subject = "Message from Portfolio";
-$txt = $message;
-$headers = "From: $email" . "\r\n" .
-"CC: somebodyelse@example.com";
-  mail($to,$subject,$txt,$headers);
-}
-?>
 <!DOCTYPE html>
 <html>
 
