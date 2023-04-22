@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+*::selection {
+  background-color: antiquewhite;
+}
+
+body {
+  background-color: darkcyan;
+  font-family: "Shantell Sans", cursive;
+}
+#he {
+  text-align: center;
+  margin-top: 50px;
+  transition: 1s;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  padding: 25px 35px;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+}
+.error {
+  background-color: red;
+  color: white;
+}
+::placeholder {
+  font-family: "Shantell Sans", cursive;
+}
+.error::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
+}
+#reseting {
+  color: crimson;
+  font-weight: 700;
+  display: none;
+  cursor: pointer;
+  transition: 1s;
+}
+#pl {
+  transition: 1s;
+}
+
+input {
+  width: 95%;
+  padding: 20px 10px;
+  background-color: beige;
+  border: 1px solid #494eea;
+  margin: 10px 0 20px;
+}
+#qrBtn {
+  width: 100%;
+  padding: 20px 0;
+  background-color: cadetblue;
+  color: white;
+  border: none;
+  font-family: "Shantell Sans", cursive;
+  cursor: pointer;
+}
+#imgSec {
+  text-align: center;
+  width: 200px;
+  border-radius: 5px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+#qrCode {
+  width: 100%;
+}
+#imgSec.show-img {
+  max-height: 200px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+  padding: 10px;
+}

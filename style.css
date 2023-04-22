@@ -266,6 +266,20 @@ nav ul li a:hover::after {
 .btn:hover {
   background: #92de8b;
 }
+#btn_id {
+  background-color: transparent;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #92de8b;
+  padding: 14px 50px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+#btn_id:hover {
+  background: #92de8b;
+}
 
 /*----------------------CONTACT---------------------*/
 .contact-left {
